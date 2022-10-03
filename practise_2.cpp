@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-	string name[3][3];
 	int n1, n2;
 	int i=0;
 	cout<<"Enter the number of strings to be stored in row and column : "<<endl;
 	cin>>n1>>n2;
+	string name[n1][n2];
 	while(i<n1)
 	{
 		i++;
